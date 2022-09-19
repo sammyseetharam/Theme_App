@@ -11,6 +11,15 @@
         <item name="colorOnSecondary">@color/secondaryDarkColor</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+        <item name="android:textViewStyle">@style/CustomTextView</item>
+        <item name="android:layout_width">@dimen/Width</item>
+
+    </style>
+
+    <style name="CustomTextView" parent="Fremd_ColorCodes">
+        android:layout_width="@dimen/Width"
+        android:layout_height="@dimen/Height"
+        android:text="Hello World!"
+        android:textSize="@dimen/fontLarge"
     </style>
 </resources>
