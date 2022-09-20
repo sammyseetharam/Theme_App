@@ -13,11 +13,9 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="@dimen/Width"
-        android:layout_height="@dimen/Height"
-        android:gravity="top"
-        android:margin="@dimen/margin"
-        android:padding="@dimen/padding"
+        android:layout_width="@dimen/textViewWidths"
+        android:layout_height="@dimen/textViewHeights"
+        android:paddingTop="@dimen/topPadding"
         android:style="@style/CustomTextView"
         android:textColor="@color/secondaryDarkColor"
         android:textColorHighlight="@color/secondaryDarkColor"
@@ -58,5 +56,11 @@
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.gridlayout.widget.GridLayout>
 
 </LinearLayout>
