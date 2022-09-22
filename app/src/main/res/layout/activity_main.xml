@@ -22,7 +22,7 @@
             android:layout_width="401dp"
             android:layout_height="95dp"
             android:paddingTop="@dimen/padding"
-            android:text="Victor - E - Viking Clicker" />
+            android:text="Victor - E - Viking" />
 
 
         <!-- you can see this textColor overrides the
